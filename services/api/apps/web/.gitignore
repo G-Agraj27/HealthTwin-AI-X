@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-node_modules
-.pnp
+/node_modules
+/.pnp
 .pnp.*
 .yarn/*
 !.yarn/patches
@@ -12,18 +11,14 @@ node_modules
 !.yarn/versions
 
 # testing
-coverage
+/coverage
 
 # next.js
-.next/
-out/
+/.next/
+/out/
 
 # production
-build
-dist
-
-# turbo
-.turbo
+/build
 
 # misc
 .DS_Store
@@ -44,38 +39,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-=======
-# Node
-node_modules/
-.next/
-out/
-dist/
-build/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-
-# Logs
-*.log
-
-# VS Code
-.vscode/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-
-# Misc
-*.sqlite
->>>>>>> c32e0c50f37d71ca8de84a2ac3047137b3af0982

@@ -1,12 +1,17 @@
 {
   "name": "web",
+<<<<<<< HEAD
   "version": "0.0.1",
   "type": "module",
+=======
+  "version": "0.1.0",
+>>>>>>> c32e0c50f37d71ca8de84a2ac3047137b3af0982
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "eslint",
     "format": "prettier --write \"**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit"
@@ -16,6 +21,12 @@
     "lucide-react": "^1.23.0",
     "next": "16.2.6",
     "next-themes": "^0.4.6",
+=======
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+>>>>>>> c32e0c50f37d71ca8de84a2ac3047137b3af0982
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
@@ -24,9 +35,15 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+<<<<<<< HEAD
     "@workspace/eslint-config": "*",
     "@workspace/typescript-config": "*",
     "eslint": "^9",
+=======
+    "eslint": "^9",
+    "eslint-config-next": "16.2.10",
+    "tailwindcss": "^4",
+>>>>>>> c32e0c50f37d71ca8de84a2ac3047137b3af0982
     "typescript": "^5"
   }
 }
